@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dl3f4bfpekefp"]
+
+[ext_resource type="Texture2D" uid="uid://c8pb8guk6ughk" path="res://俄罗斯轮盘素材/954819022d51c9000b3cea80335eef8e.jpg" id="1_56dpf"]
+[ext_resource type="Script" uid="uid://dafi4yx5ayec6" path="res://Script/control.gd" id="2_cfs8e"]
+
+[node name="Node2D" type="Node2D" unique_id=1827556399]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1342546421]
+modulate = Color(0.3971006, 0, 0.088411234, 1)
+offset_right = 1920.0
+offset_bottom = 1080.0
+scale = Vector2(0.60000026, 0.60000014)
+texture = ExtResource("1_56dpf")
+
+[node name="Control" type="Control" parent="." unique_id=771800447]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_cfs8e")
+
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=1722710761]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="正常按钮" type="Button" parent="Control/GridContainer" unique_id=585342895]
+layout_mode = 2
+text = "点我"
+
+[node name="正常按钮2" type="Button" parent="Control/GridContainer" unique_id=1869086608]
+layout_mode = 2
+text = "点我"
+
+[node name="正常按钮3" type="Button" parent="Control/GridContainer" unique_id=856683221]
+layout_mode = 2
+text = "点我"
+
+[node name="正常按钮4" type="Button" parent="Control/GridContainer" unique_id=1130142227]
+layout_mode = 2
+text = "点我"
+
+[node name="正常按钮5" type="Button" parent="Control/GridContainer" unique_id=713878136]
+layout_mode = 2
+text = "点我"
+
+[node name="子弹按钮" type="Button" parent="Control/GridContainer" unique_id=270817404]
+layout_mode = 2
+text = "点我"

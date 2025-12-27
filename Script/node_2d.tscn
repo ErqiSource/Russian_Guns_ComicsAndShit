@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://c6c0yrhjfs6kv"]
+
+[ext_resource type="Texture2D" uid="uid://c8pb8guk6ughk" path="res://俄罗斯轮盘素材/954819022d51c9000b3cea80335eef8e.jpg" id="1_fnjw7"]
+[ext_resource type="Texture2D" uid="uid://cm26uy27n808h" path="res://俄罗斯轮盘素材/标题.png" id="2_fnjw7"]
+[ext_resource type="Script" uid="uid://bdeie16n8xygs" path="res://Script/button.gd" id="3_kf3wg"]
+
+[node name="Node2D" type="Node2D" unique_id=1372273356]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=834792249]
+offset_right = 1920.0
+offset_bottom = 1080.0006
+scale = Vector2(0.59999967, 0.5999997)
+texture = ExtResource("1_fnjw7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=287863227]
+position = Vector2(840, 536)
+scale = Vector2(0.103204995, 0.09122007)
+texture = ExtResource("2_fnjw7")
+
+[node name="跳转至按钮_tscn" type="Button" parent="." unique_id=1971537137]
+offset_left = 752.0
+offset_top = 304.0
+offset_right = 1088.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 77
+text = "开始游戏"
+script = ExtResource("3_kf3wg")
